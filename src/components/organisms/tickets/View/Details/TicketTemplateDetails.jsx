@@ -40,8 +40,7 @@ const TicketTemplateDetails = () => {
 		const additionalFields = chosenTemplate.includes("additionalFields");
 
   return (
-		<div className="divide-y divide-[#ECECEC] max-h-[12rem]">
-		{/* <div className="divide-y divide-[#ECECEC] max-h-[12rem] overflow-y-auto"> */}
+		<div className="divide-y divide-[#ECECEC] max-h-[12rem] overflow-y-auto">
 			{pointOfContact && <PointOfContact />}
 			{numberOfTechniciansNeeded && <NumberOfTechNeeded />}
 			{numberOfWorkStation && <NumberOfWorkStation />}
